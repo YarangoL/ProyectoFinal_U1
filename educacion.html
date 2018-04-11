@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<!-- Encabezado de la Página Web -->
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+      <title>Educación</title>
+  </head>
+<!-- Cuerpo de la Página Web -->
+  <body>
+<!-- Etiqueta Semantica header -->
+<header>
+    <svg width="200px" heigth="200px" viewbox="60 5 200 150">
+    <image xlink:href="img/Logo_final.svg" width="300px" heigth="300px">Logo Yeison Arango López</image>
+    </svg>
+</header>
+    <h1>Hoja de Vida</h1>
+    <br>
+      <h2>Yeison Orlando Arango López</h2>
+       <h3>11 de Noviembre de 1988, La Tebaida (Q)</h3>
+<!-- Etiqueta Semantica Nav -->
+<nav>
+  <ul>
+    <li><strong><a href="index.html">Inicio</a></strong></li>
+    <li><strong><a href="educacion.html">Educación</a></strong></li>
+    <li><strong><a href="experiencia.html">Experiencia</strong></a></li>
+  </ul>
+</nav>
+<h2>Educación</h2>
+<!-- Tabla Logros Educativos -->
+<table border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <th>Título</th>
+    <th>Año</th>
+    <th>Institución</th>
+    <th>Lugar</th>
+    <th>¿Culmino?</th>
+  </tr>
+  <tr>
+    <td>Desarrollador WEB</td>
+    <td>2018</td>
+    <td>Next_U</td>
+    <td>Los Ángeles</td>
+    <td>Actualmente</td>
+  </tr>
+  <tr>
+    <td>Tecnología en Electrónica</td>
+    <td>2017</td>
+    <td>Universidad Del Quindío</td>
+    <td>Armenia</td>
+    <td>Aplazado</td>
+  </tr>
+  <tr>
+    <td>Tecnico Mantenimiento y Ensamble de Computadores</td>
+    <td>2004</td>
+    <td>Centro Auxiliar de Servicios Docentes C.A.S.D</td>
+    <td>Armenia</td>
+    <td>Si</td>
+  </tr>
+  <tr>
+    <td>Bachiller</td>
+    <td>2004</td>
+    <td>Institución Educativa Instituto Tebaida</td>
+    <td>La Tebaida</td>
+    <td>Si</td>
+  </tr>
+</table>
+  <br>
+<h2>Agregar Estudios</h2>
+<!-- Formulario Ingreso  -->
+<form name="Formulario Educativo" autocomplete="on">
+  <fieldset >
+    <legend><h3>Titulos Educativos</h3></legend>
+      <label for="Titulo Obtenido"><strong>Título:</strong></label>
+        <input id="Titulo Obtenido"type="text" name="Titulo Obtenido" placeholder=" Nombre Titulo Obtenido" maxlength="40" size="30">
+    <br>
+    <br>
+      <label for="Año"><strong>Año:</strong></label>
+        <select class="datetime" name="Año"id="Año">
+          <option>2004</option>
+          <option>2005</option>
+          <option>2006</option>
+          <option>2007</option>
+          <option>2008</option>
+          <option>2009</option>
+          <option>2010</option>
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+        </select>
+    <br>
+    <br>
+      <label for="Institución"><strong>Institución Educativa:</strong></label>
+        <input id="Institución"type="text" name="Institución Educativa" placeholder=" Ej:Universidad Nacional" maxlength="50" size="30" required>
+    <br>
+    <br>
+      <label for="Lugar"><strong>Lugar:</strong></label>
+        <input id="Lugar"type="text" name="Lugar de la Obtencion del Titulo" placeholder=" Ej:Bogotá D.C" maxlength="30" size="30">
+    <br>
+    <br>
+      <label for="Culmino"><strong> ¿Culminó? </strong></label>
+        <b><strong>Si</strong></b><input type="radio" name="Culmino">
+        <b><strong>No</strong></b><input type="radio" name="Culmino">
+    <br>
+    <br>
+        <input type="submit" name="Enviar" value="Enviar">
+  </fieldset>
+</form>
+  <!-- Etiqueta Semantica Footer -->
+    <footer>
+      <ul>
+        <li>E-mail:<a href="mailto:yeison.arango@hotmail,com"><strong>yeison.arango@hotmail.com</strong></a></li>
+        <li>Teléfono:<strong>3196098093</strong></li>
+        <li>Direccion:<strong>Cra 23 D # 13-46 Junin Cali, Colombia</strong></li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <filter id="svg_5_blur">
+   <feGaussianBlur stdDeviation="0.3" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0.1" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_9_blur">
+   <feGaussianBlur stdDeviation="0.5" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g filter="url(#svg_9_blur)" id="svg_9">
+   <ellipse opacity="0.5" id="svg_1" filter="url(#svg_1_blur)" stroke="#000000" fill-opacity="0" ry="49.164064" rx="129.261713" cy="148.5" cx="300.000006" fill="#000000"/>
+   <ellipse opacity="0.5" transform="rotate(45 299.60156250000006,150.65625000000003) " id="svg_2" stroke="#000000" fill-opacity="0" ry="49.164064" rx="129.261713" cy="150.65625" cx="299.601569" fill="#000000"/>
+   <ellipse opacity="0.5" transform="rotate(135 300,150.5) " id="svg_3" stroke="#000000" fill-opacity="0" ry="49.164064" rx="129.261713" cy="150.5" cx="300.000006" fill="#000000"/>
+   <ellipse opacity="0.5" transform="rotate(90 300.00000000000006,150.50000000000003) " id="svg_4" stroke="#000000" fill-opacity="0" ry="49.164064" rx="129.261713" cy="150.5" cx="300.000006" fill="#000000"/>
+  </g>
+  <text font-style="normal" font-weight="normal" filter="url(#svg_5_blur)" stroke="#000000" transform="matrix(1.559833847929921,0,0,1.3516512321640206,-168.10560834502724,-49.04498094245429) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_5" y="155" x="300.230687" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#007f00">YOARANGOL</text>
+ </g>
+</svg>
